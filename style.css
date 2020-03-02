@@ -9,7 +9,7 @@ body {
 }
 
 .header {
-    background: #ffffff;
+    background: #731919;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -22,6 +22,7 @@ body {
     justify-content: left;
     font-family: Roboto Slab;
     font-weight: bolder;
+    color: #ffffff;
 
 }
 
@@ -32,7 +33,7 @@ body {
 
 .menu li {
     margin-left: 20px;
-    background-color: #731919;
+    
     border-radius: 5px;
 }
 
@@ -63,18 +64,13 @@ main h1 {
 }
 
 .flex {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 300px;
-    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    grid-gap: 5px;
     
 }
 
-.flex > img {
-    flex: 1 1 200px;
-    margin: 10px;
-    border: solid 1px black;
-}
 
 .foto-curso {
     display: flex;
