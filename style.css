@@ -18,24 +18,30 @@ body {
 }
 
 .header h1 {
-    font-size: 22px;
+    font-size: 38px;
     justify-content: left;
     font-family: Roboto Slab;
     font-weight: bolder;
+
 }
 
 .menu {
     display: flex;
-
+    
 }
 
 .menu li {
     margin-left: 20px;
+    background-color: #731919;
+    border-radius: 5px;
 }
 
 .menu li a {
     display: block;
     padding: 10px 10px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 
@@ -59,7 +65,7 @@ main h1 {
 .flex {
     display: flex;
     flex-wrap: wrap;
-    max-width: 1000px;
+    max-width: 300px;
     margin: 0 auto;
     
 }
@@ -119,3 +125,4 @@ footer p {
 .menssagem {
     align-content: initial;
 }
+
